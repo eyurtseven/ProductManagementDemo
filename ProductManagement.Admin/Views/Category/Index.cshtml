@@ -1,0 +1,28 @@
+﻿@model  List<ProductManagement.Admin.Models.CategoryPageModel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Kategori Listesi</h2>
+
+<table id="tblCategoryList" style="width: 100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Kategori</th>
+            <th>&nbsp;</th>
+        </tr>
+    </thead>
+    @if (Model != null)
+    {
+        foreach (var m in Model)
+        {
+            <tr>
+                <td>@m.Id</td>
+                <td>@m.Name</td>
+                <td>@Html.ActionLink("Detay", "Detail", "Category", new { id = m.Id }, null)</td>
+            </tr>
+        }
+    }
+</table>

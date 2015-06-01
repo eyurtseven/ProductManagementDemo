@@ -1,0 +1,12 @@
+C:\Users\emre\Documents\Visual Studio 2013\Projects\ProductManagementDemo\Test\bin\Debug\Test.exe.config
+C:\Users\emre\Documents\Visual Studio 2013\Projects\ProductManagementDemo\Test\bin\Debug\Test.exe
+C:\Users\emre\Documents\Visual Studio 2013\Projects\ProductManagementDemo\Test\bin\Debug\Test.pdb
+C:\Users\emre\Documents\Visual Studio 2013\Projects\ProductManagementDemo\Test\bin\Debug\EntityFramework.dll
+C:\Users\emre\Documents\Visual Studio 2013\Projects\ProductManagementDemo\Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\emre\Documents\Visual Studio 2013\Projects\ProductManagementDemo\Test\bin\Debug\ProductManagement.Data.dll
+C:\Users\emre\Documents\Visual Studio 2013\Projects\ProductManagementDemo\Test\bin\Debug\ProductManagement.Data.pdb
+C:\Users\emre\Documents\Visual Studio 2013\Projects\ProductManagementDemo\Test\bin\Debug\EntityFramework.xml
+C:\Users\emre\Documents\Visual Studio 2013\Projects\ProductManagementDemo\Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\emre\Documents\Visual Studio 2013\Projects\ProductManagementDemo\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\emre\Documents\Visual Studio 2013\Projects\ProductManagementDemo\Test\obj\Debug\Test.exe
+C:\Users\emre\Documents\Visual Studio 2013\Projects\ProductManagementDemo\Test\obj\Debug\Test.pdb
