@@ -1,28 +1,44 @@
-﻿@model  List<ProductManagement.Admin.Models.CategoryPageModel>
+﻿@model ProductManagement.Admin.Models.CategoryPageModel
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Kategori Listesi</h2>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Yeni Kategori</h3>
+    </div>
+    <div class="panel-body">
+        @Html.LabelFor(x => x.NewCategory.Name)
+        @Html.TextBoxFor(x => x.NewCategory.Name)
+    </div>
+</div>
 
-<table id="tblCategoryList" style="width: 100%">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Kategori</th>
-            <th>&nbsp;</th>
-        </tr>
-    </thead>
-    @if (Model != null)
-    {
-        foreach (var m in Model)
-        {
-            <tr>
-                <td>@m.Id</td>
-                <td>@m.Name</td>
-                <td>@Html.ActionLink("Detay", "Detail", "Category", new { id = m.Id }, null)</td>
-            </tr>
-        }
-    }
-</table>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Kategori Listesi</h3>
+    </div>
+    <div class="panel-body">
+        <table id="tblCategoryList">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Kategori</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </thead>
+            @if (Model != null)
+            {
+                foreach (var m in Model.CategoryList)
+                {
+                    <tr>
+                        <td>@m.Id</td>
+                        <td>@m.Name</td>
+                        <td>@Html.ActionLink("Detay", "Detail", "Category", new { id = m.Id }, null)</td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+</div>
